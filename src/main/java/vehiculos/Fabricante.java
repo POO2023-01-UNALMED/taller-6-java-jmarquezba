@@ -17,14 +17,14 @@ public class Fabricante {
 	
     public static Fabricante fabricaMayorVentas() {
         int iniciador = 0;
-        Fabricante mayor = null; 
+        Fabricante fabricanteMayorVentas = null; 
         for (Fabricante fabricante : fabricantes) {
             if (fabricante.canVentas>iniciador) {
                 iniciador=fabricante.canVentas;
-                mayor=fabricante;
+                fabricanteMayorVentas=fabricante;
             }
         }
-        return mayor;
+        return fabricanteMayorVentas;
     }
 
 	public String getNombre() {
