@@ -6,13 +6,8 @@ public class Pais {
 	protected String nombre;
 	
 	public Pais(String nombre) {
-		super();
 		this.nombre = nombre;
 	}
-
-
-
-
 
 	public static Pais paisMasVendedor() {
 	        ArrayList<Pais> ubicacionFabrica = new ArrayList<Pais>();
@@ -39,10 +34,6 @@ public class Pais {
 	        return paisMayorVentas;
 	    }
 	
-	
-	
-	
-
 	public String getNombre() {
 		return nombre;
 	}
