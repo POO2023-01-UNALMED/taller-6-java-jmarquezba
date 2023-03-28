@@ -4,8 +4,8 @@ public class Automovil extends Vehiculo {
 		protected int puestos;
 		public static int canAutomoviles;
 		
-		public Automovil(String placa, int puertas, int velocidadMaxima, String nombre, double precio, int peso,
-				String traccion, Fabricante fabricante, int puestos) {
+		public Automovil(String placa, String nombre, double precio, int peso,
+				 Fabricante fabricante, int puestos) {
 			super(placa, 4, 100, nombre, precio, peso, "FWD", fabricante);
 			this.puestos = puestos;
 			canAutomoviles++;
